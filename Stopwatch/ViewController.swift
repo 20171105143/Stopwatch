@@ -23,5 +23,8 @@ class ViewController: UIViewController {
     var Count = 0.00
     var Playing = false  //计时状态＝否
 
+    override func viewDidLoad() { 
+        super.viewDidLoad()
+    }
 }
 
