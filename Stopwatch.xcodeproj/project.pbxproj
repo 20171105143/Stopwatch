@@ -14,6 +14,7 @@
 		1A6E9ACE21CB41C8007E3919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6E9ACC21CB41C8007E3919 /* LaunchScreen.storyboard */; };
 		1A6E9AD921CB41C9007E3919 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6E9AD821CB41C9007E3919 /* StopwatchTests.swift */; };
 		1A6E9AE421CB41C9007E3919 /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6E9AE321CB41C9007E3919 /* StopwatchUITests.swift */; };
+		1A700C9F21E4407500BD0AB4 /* 84bf650fb5eb4fc03a3f741aa060cb16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A700C9E21E4407500BD0AB4 /* 84bf650fb5eb4fc03a3f741aa060cb16.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1A6E9ADF21CB41C9007E3919 /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6E9AE321CB41C9007E3919 /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		1A6E9AE521CB41C9007E3919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A700C9E21E4407500BD0AB4 /* 84bf650fb5eb4fc03a3f741aa060cb16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 84bf650fb5eb4fc03a3f741aa060cb16.png; path = ../../84bf650fb5eb4fc03a3f741aa060cb16.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1A6E9AC321CB41C6007E3919 /* AppDelegate.swift */,
+				1A700C9E21E4407500BD0AB4 /* 84bf650fb5eb4fc03a3f741aa060cb16.png */,
 				1A6E9AC521CB41C6007E3919 /* ViewController.swift */,
 				1A6E9AC721CB41C6007E3919 /* Main.storyboard */,
 				1A6E9ACA21CB41C8007E3919 /* Assets.xcassets */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A700C9F21E4407500BD0AB4 /* 84bf650fb5eb4fc03a3f741aa060cb16.png in Resources */,
 				1A6E9ACE21CB41C8007E3919 /* LaunchScreen.storyboard in Resources */,
 				1A6E9ACB21CB41C8007E3919 /* Assets.xcassets in Resources */,
 				1A6E9AC921CB41C6007E3919 /* Main.storyboard in Resources */,

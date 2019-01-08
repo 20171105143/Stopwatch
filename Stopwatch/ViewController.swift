@@ -10,28 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
-    @IBOutlet weak var secondD: UITextField!
-    
     @IBOutlet weak var minutedD: UITextField!
+    @IBOutlet weak var secondD: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    var Count = 0.00
-    var Playing = false  //计时状态＝否
-    var second = 60
-    var minute = 2
-    var temp = ""
-    var temp2 = ""
+    var second = 0
+    var minute = 0
     var timer :Timer!
-    
+
     @IBAction func start(_ sender: Any) {
-        temp = secondD.text!
-        second = Int(temp)!
-        temp2 = minutedD.text!
-        minute = Int(temp2)!
+        second = Int(secondD.text!)!
+        minute = Int(minutedD.text!)!
         minutedD.isEnabled = false
         secondD.isEnabled = false
         timer = Timer.scheduledTimer(timeInterval: TimeInterval(1),target:self,selector: #selector(tickDown),userInfo:nil,repeats:true)
